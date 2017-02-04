@@ -242,7 +242,7 @@ footer {
 
 /* MEDIA QUERIES*/
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
 
 #headerContainer {
   position: static;
@@ -296,6 +296,20 @@ nav a:first-child {
  
 }
 
+.work {
+  position: relative;
+  max width: 100%;
+  width: 100%;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
+}
+.work-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
 .main-section {
   padding: 30px;
   margin: 0 0 40px 0;
@@ -316,8 +330,52 @@ nav a:first-child {
   border: 1px solid #ddd;
 }
 
-@media (min-width: 641px) and (max-width: 768px) {
-
-  }
 }
+
+@media screen and (max-width: 768px) {
+
+#main-container {
+  padding: 10px;
+}  
+
+.main-section {
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 768px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+.sidebar {
+  padding: 30px;
+  width: 100%;
+  max-width: 768px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+}
+
+/*@media screen and (max-width: 980px) {
+
+#main-container {
+  padding: 10px;
+}  
+
+.main-section {
+  padding: 30px;
+  margin: 0 0 40px 0;
+  width: 100%;
+  max-width: 300px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+}
+
 
